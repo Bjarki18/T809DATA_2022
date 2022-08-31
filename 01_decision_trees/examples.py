@@ -9,7 +9,7 @@ def exclusive_interval():
     and maximum values in a given list. We also want to
     exclude the min and the max in the interval.
     '''
-    num_points = 5
+    num_points = 30
     values = np.array([3, 5, 4, 6, 2, 0, 1, 1, 6, 2, 5])
     min_value = values.min()
     max_value = values.max()
@@ -100,7 +100,7 @@ def using_classes():
 
 if __name__ == '__main__':
     exclusive_interval()
-    print('-'*60)
-    using_iris()
-    print('-'*60)
-    using_classes()
+    # print('-'*60)
+    # using_iris()
+    # print('-'*60)
+    # using_classes()
